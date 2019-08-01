@@ -7,6 +7,10 @@ import { IAmCormacComponent } from './i-am-cormac/i-am-cormac.component';
 import { WebDesignerComponent } from './web-designer/web-designer.component';
 import { SoftwareEngineerComponent } from './software-engineer/software-engineer.component';
 import { StudentComponent } from './student/student.component';
+import { HomeComponent } from './home/home.component';
+import { ProjectComponent } from './project/project.component';
+import { TopMenuComponent } from './top-menu/top-menu.component';
+import { FooterMenuComponent } from './footer-menu/footer-menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { StudentComponent } from './student/student.component';
     IAmCormacComponent,
     WebDesignerComponent,
     SoftwareEngineerComponent,
-    StudentComponent
+    StudentComponent,
+    HomeComponent,
+    ProjectComponent,
+    TopMenuComponent,
+    FooterMenuComponent
   ],
   imports: [
     BrowserModule,

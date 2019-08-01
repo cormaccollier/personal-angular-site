@@ -1,0 +1,8 @@
+<div class="card card-body text-white" style="background: none; border: none">
+    <div class="d-flex">
+        <h3 class="font-weight-normal">{{project.title}} <span class="font-weight-light proj-date">{{project.date}}</span></h3>
+    </div>
+    <p class="font-weight-light">{{project.description}}
+        <a class="read-link font-weight-light" [attr.href]="project.link" target="_blank">{{project.linkText}}</a>
+    </p>
+</div>

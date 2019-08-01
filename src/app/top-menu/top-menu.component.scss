@@ -1,0 +1,17 @@
+@import '../../shared';
+
+.top-link:hover {
+    color: $color-text;
+    text-decoration: none;
+}
+
+.top-link {
+    color: $color-secondary;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.name {
+    color: $color-text;
+    border-width: thick !important;
+}

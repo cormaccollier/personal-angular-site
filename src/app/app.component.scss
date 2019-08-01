@@ -1,14 +1,9 @@
-#background {
-    background-color:#d6ebf2;
-    height: 100%;
-}
+@import '../shared';
 
-.main-text {
-    font-size: 75pt;
-}
-
-.link-hover:hover {
-    margin-left: 100px;
-    cursor: pointer;
-    font-size: 80pt;
+.background {
+    background-color: $color-main;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    z-index: -5;
 }

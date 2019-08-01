@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectConfig } from 'src/shared/ProjectConfig';
+import { HistoryData } from 'src/shared/data';
 
 @Component({
   selector: 'app-student',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./student.component.scss']
 })
 export class StudentComponent implements OnInit {
+  projects: ProjectConfig[];
 
   constructor() { }
 
   ngOnInit() {
+    this.projects = HistoryData;
   }
 
 }

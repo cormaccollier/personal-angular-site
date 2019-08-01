@@ -1,1 +1,18 @@
-<p>student works!</p>
+<div class="container text-white pb-5 pt-2">
+    <h3 class="font-weight-normal">my studies.</h3>
+    <p class="font-weight-light">
+        <span class="before-colon">WPI:</span> Class of 2020 <br/>
+        <span class="before-colon">Bachelor of Science:</span> Computer Science <br/>
+        <span class="before-colon">Minor:</span> History
+    </p>
+
+    <h3 class="mt-5 font-weight-normal">click to learn about my cs work.</h3>
+    <p class="font-weight-light mb-5">
+        <span class="cs-link" routerLink="../web">web design.</span> <br/>
+        <span class="cs-link" routerLink="../engineer">software engineering.</span>
+    </p>
+
+    <div style="margin: -1.25rem; margin-right: 0" *ngFor="let project of projects">
+        <app-project [project]="project"></app-project>
+    </div>
+</div>

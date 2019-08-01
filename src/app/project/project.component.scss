@@ -1,0 +1,14 @@
+@import '../../shared';
+
+.read-link {
+    color: $color-secondary;
+}
+
+.read-link:hover {
+    color: $color-text;
+    text-decoration: none;
+}
+
+.proj-date {
+    color: $color-secondary;
+}
