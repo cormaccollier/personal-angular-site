@@ -3,3 +3,12 @@
 span {
     color: $color-secondary;
 }
+
+.resume-link {
+    color: $color-secondary;
+}
+
+.resume-link:hover {
+    text-decoration: none;
+    color: white;
+}
