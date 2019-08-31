@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectConfig } from 'src/shared/ProjectConfig';
-import { HistoryData } from 'src/shared/data';
+import { StudentData } from 'src/shared/data';
 
 @Component({
   selector: 'app-student',
@@ -13,7 +13,7 @@ export class StudentComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.projects = HistoryData;
+    this.projects = StudentData;
   }
 
 }

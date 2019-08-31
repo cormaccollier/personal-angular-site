@@ -94,9 +94,17 @@ export const SoftwareData: ProjectConfig[] = [
     }
 ]
 
-export const HistoryData: ProjectConfig[] = [
+export const StudentData: ProjectConfig[] = [
     {
         id: 1,
+        title: 'Interactive Qualifying Project (IQP)',
+        date: '2019',
+        description: 'For WPI\'s IQP junior-year project, I went to London for 7 weeks and worked with the British Museum and their International Training Programme to develop a website to house their online exhibitions. The website, developed with  wordpress, was created with attention good website design and accompanied by readable documentation so that non-technical users could continue the website in the future.',
+        linkText: 'Read about the project and view the exhibition.',
+        link: 'https://web.wpi.edu/Pubs/E-project/Available/E-project-042519-104024/unrestricted/lo19-bm-finalpaper.pdf'
+    },
+    {
+        id: 2,
         title: 'Humanities Requirement Culminating Paper',
         date: '2018',
         description: 'This paper conducts an analysis of why Russian Jewish emigrants left their homes in such large numbers from 1881 to 1917. It argues that the reason they left was the culmination of internal Russian conditions: pogroms and anti-Jewish legislation. In addition to these factors the United States Jewish population eased resettlement of Russian Jews, providing another reason to leave. The argument is presented by first overviewing the history of Russian Jews, looking at quantitative statistics of their emigration, and lastly discussing pogroms and legislation that was put in place over the 16 year period.',
