@@ -11,6 +11,14 @@ export const WebDesignerData: ProjectConfig[] = [
     },
     {
         id: 2,
+        title: 'ITP Online Exhibition',
+        date: '2019',
+        description: 'For WPI\'s Interactive Qualifiying Project junior-year project, I went to London for 7 weeks and worked with the British Museum and their International Training Programme to develop a website to house their online exhibitions. The website, developed with  wordpress, was created with attention good website design and accompanied by readable documentation so that non-technical users could continue the website in the future.',
+        linkText: 'View the Exhibition.',
+        link: 'http://bristolthebiggerpicture.itponlineexhibitions.org/'
+    },
+    {
+        id: 3,
         title: 'Accelerator.com',
         date: '2018',
         description: 'Designed and created a website whilst working for Cogo Labs. Accelerator.com will be a directory of accelerators with profile pages for each accelerator. Designed to be scalable with easy addition of new accelerators. I made this with React and Styled Components, the website is not yet live.',
@@ -18,7 +26,7 @@ export const WebDesignerData: ProjectConfig[] = [
         link: 'https://www.cogolabs.com/',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Project-er',
         date: '2018',
         description: 'Worked in a group to create a website that functioned as a place where developers could find projects to work on, or people to work on their projects (in the WPI class Webware). This application uses node.js on the backend and react on the front end.',
@@ -26,7 +34,7 @@ export const WebDesignerData: ProjectConfig[] = [
         link: 'http://fp-project-er.herokuapp.com/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Stocker',
         date: '2018',
         description: 'Worked in a group to create a website that took in information and manipulated it using a form (in the WPI class Webware). We made a stock tracker where users could add and track their stocks using node.js and mongodb database.',
@@ -34,7 +42,7 @@ export const WebDesignerData: ProjectConfig[] = [
         link: 'http://a2-stockers.herokuapp.com/'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Tutor Application',
         date: '2018',
         description: 'Created a website where students can place a request for a tutor and other students can view those requests (in the WPI class Webware). The site uses a mondodb database to store the data and node.js for the server.',
