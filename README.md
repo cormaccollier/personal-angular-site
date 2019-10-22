@@ -1,6 +1,7 @@
 # PersonalAngularSite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
+This is my personal portfolio site (Cormac Lynch-Collier) found at www.cormaclynchcollier.com
 
 ## Development server
 
